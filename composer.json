@@ -21,8 +21,15 @@
             "PhpUsaepay\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhpUsaepay\\ServiceProvider"
+            ]
+        }
+    },
     "require": {
-        "illuminate/support": "^5|^6|^7|^8"
+        "illuminate/support": "^5|^6|^7|^8|^9"
     },
     "minimum-stability": "dev"
 }
